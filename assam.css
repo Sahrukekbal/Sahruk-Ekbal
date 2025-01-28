@@ -1,0 +1,126 @@
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Body and Background */
+
+body {
+    background: linear-gradient(to bottom, #e6f7ff, #ffffff);
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* Header */
+
+.header {
+    background-color: #008000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.header h1 {
+    font-size: 1.8em;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Main Content */
+
+.main-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* Sections */
+
+.section {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.section img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.attraction {
+    margin-top: 10px;
+}
+
+.attraction img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+/* Form */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+form input,
+form textarea,
+form button {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+form button {
+    background-color: #008000;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005f00;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
